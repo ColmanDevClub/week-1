@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+}
+
+/********************************** THIS IS THE HEADER ***************************************/
+
+.header{
+    background-color: #E4F9F5;
+    text-align: center;
+
+}
+.mountain{
+    position: relative;
+    margin-left: 25px;
+    width: 423px;
+    height: 260px;
+    padding-top: 80px;
+}
+.cloud1{
+    z-index: 1;
+    position: absolute; 
+    right: 300px;
+    top: 40px;
+}
+
+.cloud2{
+    z-index: 1;
+    position: absolute;     
+    left: 250px;
+    bottom: 400px;
+}
+
+h1{
+    padding-bottom: 30px ;
+    padding-top: 120px;
+    font-family: "Sacramento";
+    font-size: 50px;
+}
+
+h1,h2{
+    color: #66BFBF;
+}
+/********************************** THIS IS THE MAIN ***************************************/
+
+h2,h3,h6{
+    font-family:"Montserrat" ;
+    color: #11999E;
+    font-weight: normal;  
+    font-size: 25px;  
+}
+
+.profile{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+
+}
+
+.main{
+    text-align: center;
+}
+
+h3{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-family: "Merriweather";
+    font-weight: normal;  
+    padding-bottom: 120px;
+}
+
+hr{
+    border:none;
+    border-top:5px dotted #EAF6F6;
+    height:1px;
+    width:10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+
+  .skills{
+
+  }
+
+  h3{
+      padding-top: 50px;
+      padding-bottom:20px;
+      text-align: center;
+  }
+
+  h6{
+    font-weight: bold;  
+    font-size: 17px;  
+    padding-bottom: 20px;
+  }
+
+  .design{
+    margin-left: 25%;
+    margin-bottom: 30px ;
+  }
+
+  .debugging{
+      padding-top: 40px;
+      margin-left: 40%;
+      margin-bottom: 140px;
+  }
+
+
+p{
+    font-size: 15px;
+    line-height: 30px;
+    font-family: "Merriweather";
+    color: #40514E;
+}
+
+.gif1{
+    width: 230px;
+    z-index: 1;
+    position: absolute; 
+    right: 380px;
+    top: 1390px;
+}
+
+.gif2{
+    width: 218px;
+    height: 136px;
+    z-index: 1;
+    position: absolute; 
+    right: 1050px;
+    top: 1580px;
+}
+
+.lastp{
+    text-align: center;
+}
+
+button{
+    position: relative;
+    margin-left: 767px;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#11cdd4;
+    color: white;
+    border:#11cdd4 ;
+    border-radius: 12px;
+    font-size: 20px;
+    width: 164px;
+}
+
+button:hover{
+    background-color: #30e3cb;
+}
+
+footer{
+    background-color: #66BFBF;
+    text-align: center;
+    font-family: "Merriweather";
+}
+
+.tab{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #0e9b9b;
+    font-size: 15px;
+
+}   
+
+#d{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
