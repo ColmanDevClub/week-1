@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Fylo data storage component</title>
-</head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-<body>
+    <title>Fylo data storage component</title>
+  </head>
 
-  You’ve used 815 GB of your storage
+  <body>
+    <div class="container">
+      <div class="fylo">
+        <img src="assets/logo.svg" alt="" class="mainlogo" />
+        <div class="items">
+          <img src="assets/icon-document.svg" alt="" class="imgItem" />
+          <img src="assets/icon-folder.svg" alt="" class="imgItem" />
+          <img src="assets/icon-upload.svg" alt="" class="imgItem" />
+        </div>
+      </div>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-</body>
+      <div class="databar">
+        <div class="uppertext">You've used <b>815GB</b> of storage</div>
+        <div>
+          <div class="loadingbar">
+            <div class="innerbar">
+              <span class="dot"></span>
+            </div>
+          </div>
+          <div class="lowertext">
+            <div>0 GB</div>
+            <div>1000 GB</div>
+          </div>
+        </div>
+      </div>
+      <div class="bubble">
+        185
+        <span class="gbleft">GB LEFT</span>
+      </div>
+    </div>
+  </body>
 </html>

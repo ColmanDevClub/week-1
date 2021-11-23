@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: url(assets/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: bottom;
+  background-color: hsl(229, 57%, 11%);
+  font-family: "Raleway";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  gap: 50px;
+  align-items: flex-end;
+}
+
+.fylo {
+  background-color: hsl(228, 56%, 26%);
+  width: 330px;
+  height: 250px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 15px 100px 15px 15px;
+  gap: 32px;
+}
+.items {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.imgItem {
+  background-color: hsl(229, 57%, 11%);
+  padding: 15px;
+  border-radius: 20%;
+  width: 100%;
+}
+
+.databar {
+  background-color: hsl(228, 56%, 26%);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 15px;
+  justify-content: center;
+  width: 700px;
+  font-size: 22.4px;
+  gap: 30px;
+}
+.loadingbar {
+  height: 24px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 50px;
+  padding: 5px;
+}
+.innerbar {
+  width: 81%;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.dot {
+  background: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.lowertext {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.bubble {
+  box-sizing: content-box;
+  position: absolute;
+  background: #ffffff;
+  color: #000000;
+  border: #000000 solid 1px;
+
+  padding: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  right: 60px;
+  top: -20px;
+  border: 1px black solid;
+
+  border-radius: 25px 25px 0px 25px;
+}
+.bubble::after {
+  content: "";
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 25px solid white;
+  border-left: 25px solid transparent;
+  left: 20px;
+  bottom: -100px;
+}
+.gbleft {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(158, 158, 158);
+  text-align: center;
+}
