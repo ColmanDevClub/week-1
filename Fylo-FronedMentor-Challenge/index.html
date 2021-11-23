@@ -4,19 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link href="./style/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  
   
   <title>Fylo data storage component</title>
 </head>
 
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+  <div class="container">
+    <!-- Left Box -->
+    <div class="box box__left">
+      <div class="logo"><img src="./assets/logo.svg" alt="logo"></div>
+      <div class="btns">
+        <div class="btns__wrapper"><img src="./assets/icon-document.svg" alt="doc button"></div>
+        <div class="btns__wrapper"><img src="./assets/icon-folder.svg" alt="doc button"></div>
+        <div class="btns__wrapper"><img src="./assets/icon-upload.svg" alt="doc button"></div>
+      </div>
+    </div>
+    <!-- Right Box -->  
+    <div class="box box__right">
+      <div class="box__right--header"><p> You’ve used <b>815 GB</b> of your storage</p></div>      
+      
+      <div class="bar">
+        <div class="bar__wrapper"><span class="bar__used"></span></div>
+        
+        <div class="bar__info">
+          <div class="bar__info--min">0 GB</div><div class="bar__info--max">1000 GB</div>
+        </div>
+        <div class="box__right--pop">
+          <span class="pop--num"> 185 </span><span class="pop--text"> GB LEFT</span></div> 
+      </div>
+     
+    </div>
+  </div>
 </body>
 </html>
