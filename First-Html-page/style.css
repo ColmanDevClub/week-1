@@ -1,0 +1,170 @@
+
+.body .header{
+    background-color: #E4F9F5;
+    margin-top:0;
+    position:relative;
+
+}
+
+.cloud1{
+    top:40px;
+    right:300px;
+    position:absolute;
+}
+.cloud2{
+    left: 250px;
+    bottom: 300px;
+}
+
+.mountain{
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    text-align:center;
+    color:#66BFBF;
+    margin-top:-10px;
+    padding-top:50px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#66BFBF;
+    text-align:center;
+    font-weight:50;
+    font-size:20px;
+    padding-bottom: 10px;
+
+}
+
+.under{
+    text-decoration: underline;
+}
+
+h2,h3,h4,h5,h6{
+  
+    font-family: 'Montserrat', sans-serif;
+
+   
+}
+
+.p3{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+
+.content{
+    color:#40514E;
+    font-family:'Merriweather', serif;
+    text-align:center;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 100px;
+
+}
+
+.mypic{
+    border-radius:50%;
+    padding-top: -10;
+    height:150px;
+    width:150px;   
+
+}
+
+.lefth3{
+    text-align: left;
+}
+
+h3{
+    color:#11999E;
+   font-size:15px;
+  
+}
+
+h5{
+    color:#11999E;
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #EAF6F6;
+}
+
+.design{
+    text-align: left;
+    line-height: 30px;
+    
+}
+
+.gif1{
+    float:right;
+    padding-left: 18px;
+}
+
+.debugging{
+    line-height: 30px;
+}
+
+.git2{
+    float:left;
+    padding-right: 20px;
+}
+
+.condition{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.p2{
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+button{
+    background-color:#11cdd4;
+    color:white;
+    
+    border-radius:4px;
+    padding: 8px 12px;
+    border:none; 
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+
+}
+
+
+  button:hover {
+    background-color: #30e3cb; 
+    color: white;
+  }
+
+
+  .footer{
+    text-align: center;
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color:white;
+   font-size: 11px;
+ 
+  
+}
+
+
+
+
