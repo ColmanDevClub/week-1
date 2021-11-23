@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: #E4F9F5;
+    color: #EAF6F6;
+    width: 100vw;
+    top: 0%;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    margin-bottom: 0%;
+}
+
+h1 {
+    font-family: 'Sacramento', sans-serif;
+    color: #66BFBF;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', cursive;
+    color: #66BFBF;
+    display: inline;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', cursive;
+}
+
+.button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #11cdd4 ;
+    color: white;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%,0px);
+    border-radius: 10px;
+    font-size: 110%;
+}
+.button:hover {
+    background-color: #30e3cb;
+}
+
+.cloudOne {
+    position: relative;
+    left: 100%;
+    top: 40px;
+    transform: translate(-300px,0px);
+    
+
+}
+.cloudTwo {
+    position: relative;
+    left: 250px;
+
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    width: 100vw;
+}
+
+.profilePic {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    transform: translate(-50%,0px);
+}
+
+.profilePic img { 
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.profile h2 {
+    margin-top: 20px;
+
+    font-size: 150%;
+}
+
+.skills {
+    margin-top: 150px;
+    width: 100vw;
+}
+.skills h3 {
+    margin-bottom: 10px;
+}
+.designAndDev {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0px);
+    margin-top: 50px;
+    width: 60vw;
+}
+.paragraph {
+    display: inline-block;
+    width: 70%;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.firstGif {
+    float: right;
+    width: 210px;
+}
+.firstGif img {
+    display: inline-block;
+    width: 100%;
+}
+
+.debugging {
+    position: relative;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%,0px);
+    margin-top: 50px;
+    width: 60vw;
+}
+.secondGif {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+.secondGif img {
+    width: 100%;
+}
+
+.getInTouch {
+    margin-top: 200px;
+    width: 100vw;
+}
+
+.getInTouch h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 25px;
+}
