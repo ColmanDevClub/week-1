@@ -1,0 +1,211 @@
+body{
+    background-image:url("./assets/bg-desktop.png");
+    background-color: hsl(229, 57%, 11%);
+    position: relative;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: bottom;
+   background-size: 100%;
+
+}
+
+.container{
+    box-sizing: border-box;
+    padding:10px;
+    margin:50px;
+    display:flex;
+    position: relative;
+    top:100px;
+    flex-direction: row;
+   justify-content: center;
+  
+ 
+
+}
+
+
+
+.item{
+    background-color:hsl(228, 56%, 26%);
+    padding:20px;
+    margin:10px;
+    margin-right: 3px;
+    color:white;
+    
+}
+
+.item-1{
+    width:350px;
+    border-radius: 15px 70px 15px 5px;
+    height: 150px;
+    margin-right:40px;
+
+}
+
+.item-2{
+    height:100px;
+    align-self: flex-end;
+    border-radius: 15px;
+    width:450px;
+}
+
+.container2{
+    box-sizing: border-box;
+    padding:10px;
+    margin:50px;
+    display:flex;
+    position: relative;
+    top:20px;
+    right:50px;
+    flex-direction: row;
+   justify-content: flex-start;
+  
+
+}
+
+.item2{
+    background-color:hsl(229, 57%, 11%);
+    padding:20px;
+    margin:10px;
+    margin-right: 3px;
+    color:white;
+    height: 7px;
+    width: 7px;
+    border-radius: 10px;
+    
+}
+
+.icon1{
+    position: absolute;
+    top: 35px;
+    left:36px;
+}
+
+.icon2{
+    position: absolute;
+    top: 38px;
+    left:92px;
+}
+
+.icon3{
+    position: absolute;
+    top: 38px;
+    left:152px;
+}
+
+.logo{
+    position: absolute;
+    top:50px;
+    left:290px;
+}
+
+.div3{
+    width: 430px;
+    height: 20px;
+      background-color:hsl(229, 57%, 11%);
+      position:relative;
+      left:10px;
+      top:50px;
+      border-radius: 20px;
+      border:1px solid hsl(229, 57%, 11%);
+  
+  }
+  
+  .div4{
+      height: 82%;
+      width:75%;
+      background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+      border-radius: 20px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      margin-left: 2px;
+      
+      
+      
+  }
+
+  .circle{
+    position:absolute;
+    left:50px;
+    width:14px;
+    height:14px;
+    background:white;
+    border-radius: 50%;
+    transform: translateY(1px) translateX(258.5px);
+}
+
+.p1{
+    font-family: Raleway;
+    padding:35px;
+    position: absolute;
+    top:55px;
+    left:690px;
+    font-size: 13.5px;
+}
+
+.p2{
+    font-family: Raleway;
+    padding:35px;
+    color:white;
+    position: absolute;
+    bottom: -8px;
+    left:690px;
+    font-size:13px;
+}
+
+
+
+
+.bubble {
+    position: absolute;
+    background: white;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 121px;
+    text-align: center;
+    width: 172px;
+    height: 55px;
+    border-radius: 11px;
+    padding: 7px;
+    top:120px;
+    left:1007px;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 22px 26px 0;
+    border-color: transparent white transparent transparent;
+    bottom: -16px;
+    left: 94%;
+    margin-left: -11px;
+}
+
+.p4{
+    text-align: right;
+    font-size: 15px;
+    position:absolute;
+    left: 30px;
+    top:-40px;
+    font-weight: bolder;
+    color:hsl(229, 7%, 55%);
+    z-index: 10;
+    font-family: Raleway;
+}
+
+.span1{
+    color:hsl(229, 57%, 11%);
+    font-size:35px;
+    font-weight: bold;
+}
+
+.span2{
+    position: relative;
+    top:-7px;
+    font-size:13px;
+    font-weight: 900;
+}
