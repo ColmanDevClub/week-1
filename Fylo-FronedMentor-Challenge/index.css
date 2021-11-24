@@ -1,0 +1,181 @@
+body
+{
+    background-color:hsl(229, 57%, 11%);
+}
+.desktopblue
+{
+    position:absolute;
+    bottom: 0;
+    padding-right:10px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.box
+{
+    position: absolute;
+    background-color:hsl(228, 56%, 26%);
+    font:'Raleway' , 22.4px , regular;
+    border-radius: 10px 80px 10px 5px;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    bottom: 38%;
+    left:20%;
+
+}
+.logo
+{
+   
+    position:absolute;
+    margin-top:10%;
+    margin-left: 4%;
+    
+}
+.container
+{
+    display:flex;
+    flex-direction:row;
+    gap:7px;
+    gap :7px 17px;
+    row-gap:7px;
+    position: absolute;
+    flex-wrap:nowrap;
+    bottom: 25px;
+    left:30px;
+}
+.container div
+{
+    background-color:hsl(229, 57%, 11%);
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    align-items:center;
+    background-color:hsl(229, 57%, 11%);
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    
+}
+.icon1
+{
+    flex:1;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 9px;
+
+}
+.icon2
+{
+    flex:1;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 9px;
+}
+.icon3
+{
+    flex:1;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.rightbox
+{
+    position: absolute;  
+    background-color:hsl(228, 56%, 26%);
+    border-radius: 10px 10px 10px 10px;
+    width: 550px;
+    height: 120px;
+    margin-top:350px;
+    margin-left: 700px;
+    color:aliceblue;
+    font-family:Raleway;
+    font-size: 10px;
+   
+}
+.inside
+{
+    color:aliceblue;
+}
+.line1
+{
+    position:absolute;
+    background-color:hsl(229, 57%, 11%);
+    width: 450px;
+    height: 18px;
+    border-radius: 10px;
+    margin-left:50px;
+
+}
+.line2
+{
+    position:absolute;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 300px;
+    height: 14px;
+    border-radius: 10px;
+    margin-left:53px;
+    margin-top:2px;
+}
+.point
+{
+    position:absolute;
+    background-color:aliceblue;
+    width: 10px;
+    height: 10px;
+   border-radius: 50%;
+   margin-left:340px;
+   margin-top: 3px;
+}
+.p1
+{
+    margin-left:50px;
+}
+.p2
+{
+    margin-left:50px;
+}
+
+.speak
+{
+    position:absolute;
+    background-color:aliceblue;
+    border-radius:6px;
+    height: 60px;
+    width: 160px;
+    margin-left:380px;
+    bottom: 80%;
+    color:black;
+    font-size: xx-large;
+    font-weight:900;
+
+}
+.speak1
+{
+    position:absolute;
+    color:grey;
+    font-size:10px;
+    margin-left: 80px;
+    bottom: 50%;
+    font-weight:500;
+    
+}
+.bottom-right::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 30px solid transparent;
+    border-right: 0px solid aliceblue;
+    border-top: 40px solid aliceblue;
+    border-bottom: -30px solid transparent;
+    right:0px;
+    bottom: -20px;
+   
+  }
+
+
+
+
+
