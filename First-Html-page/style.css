@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sacramento&display=swap');
+ 
+header{
+    padding: 40px 0;
+}
+
+#title {
+    
+    left:80px; 
+    top:20px;
+    text-align: center;
+    color: #66BFBF;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+}
+
+#subtitle{
+    
+    left:80px; 
+    top:20px;
+    text-align: center;
+    color: #66BFBF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.leftcloud{
+    position:absolute;
+    left: 250px;
+    top: 200px;
+    width: 100px;
+
+}
+.rightcloud{
+    position:absolute;
+    right: 250px;
+    top: 40px;
+    width: 100px;
+}
+
+#mountainimage{
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+}
+
+#roundimage{
+    top: 200px;
+    height: 20vh;
+    display: block;
+    align-items: center;
+    width: 150px;
+    margin: 0 auto;
+    margin-top:40px;
+    padding: 0 auto;
+    clip-path: circle();
+}
+
+.hellotext{
+    left:80px; 
+    top:20px;
+    text-align: center;
+    margin-top: 10px;
+    color:#11999E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ilovetocode{
+    left:80px; 
+    top:20px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3,h4{
+    margin: 0;
+    margin-top: 4em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.text{
+    
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container > div{
+    flex-basis: 40%;
+}
+
+.skilltitle{
+    color:#11999E;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#giftwo{
+    margin-right: 30%;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#getintouch{
+    margin-top: 15px;
+    color:#11999E;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#finalp{
+    
+    margin-top: 30px;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+    
+    background-color:#11cdd4 ;
+    border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.button:hover{opacity: 1;}
+
+footer{
+    height: 5vh;
+    text-align: center;
+    word-spacing: 20px;
+    margin-top: 10vh;
+    padding: 40px 0;
+}
+#socialmedia{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #11999E;
+}
+
+#devclub{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+}

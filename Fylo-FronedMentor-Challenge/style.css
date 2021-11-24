@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:ital,wght@1,300&family=Sacramento&display=swap');
+
+body{
+    color: white;
+    width: 100%;
+    min-height: 100%;
+}
+
+.container{
+    display: flex;
+}
+
+.box-1{
+
+      flex: 0 0 65%;
+  background: hsl(228, 56%, 26%);
+ 
+  width: 32%;
+    height: 120px;
+    position: absolute;
+    top:0;
+    bottom: 130px;
+    left: 22%;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#used{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.probar{
+    margin-left: 30px;
+    background-color: hsl(229,57%,11%);
+    border-radius: 20px;
+    height: 20px;
+    width: 87%;
+}
+
+.progress-done{
+    background: linear-gradient(to left, hsl(6, 100%, 80%),hsl(335, 100%, 65%) );
+    border-radius: 20px;
+    height: 100%;
+    width: 75%;
+}
+
+#gbleft{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-left: 7%;
+    word-spacing: 360px;
+    margin-top: 1%;
+}
+
+
+.box-2{
+    flex: 1;
+    background: hsl(228, 56%, 26%);
+    width: 18%;
+    height: 21%;
+    position: absolute;
+    top:0;
+    bottom: 22%;
+    left: 0;
+    right: 35%;
+    margin: auto;
+    border-radius: 15px 70px 15px 15px;
+}
+
+#fyloimg{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#smallimg{
+    margin-left: 30px;
+    background-color :hsl(229,57%,11%);
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    width:18%;
+    height:40px;
+    border-radius: 10px;
+    
+}
+
+
+
+#backgroundwaves{
+    width: 100%;
+    margin-top: 20%;
+}
+
+.box-3{
+  flex: 0 0 65%;
+  background: white;
+  width: 9%;
+  height: 80px;
+  position: absolute;
+  top:0;
+  bottom: 280px;
+  left: 39%;
+  right: 0;
+  margin: auto;
+  border-radius: 29px 25px 20px 29px;
+}
+
+#leftgb{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20%;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+#triangle{
+      width: 0%;
+      height: 0%;
+      border-top: 35px solid white;
+      border-left:  35px solid transparent;
+      position: absolute;
+      top:0;
+      bottom: 190px;
+      left: 45%;
+      right: 0;
+      margin: auto;
+    }

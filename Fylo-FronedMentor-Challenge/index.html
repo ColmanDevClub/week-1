@@ -5,18 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Fylo data storage component</title>
 </head>
 
-<body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
+<body style="background-color: hsl(229,57%,11%);">
+  <img id = "backgroundwaves" src="../Fylo-FronedMentor-Challenge/assets/bg-desktop.png" alt="">
   
-  0 GB
-  1000 GB
+ <section>
+<div class="container">
+  <div class="box-1">
+    <div id = "used">You’ve used <span style = "font-weight: bold;" >815 GB</span> GB of your storage.</div>
+    <div class="probar">
+    <div class="progress-done"></div>
+    </div>
+    <div id="gbleft" style="font-weight: bold;">0GB 100GB</div>
+  </div>
+  <div class="box-2">
+    <div id="fyloimg">
+    <img id="fyloimg" src="../Fylo-FronedMentor-Challenge/assets/logo.svg" alt="">
+  </div>
+  <div class="smallimg" style="background-color :hsl(228, 56%, 26%);">
+    <button id="smallimg"><img style="height: 70%;" src="../Fylo-FronedMentor-Challenge/assets/icon-document.svg" alt=""></button>
+    <button id="smallimg"><img style="height: 60%;" src="../Fylo-FronedMentor-Challenge/assets/icon-folder.svg" alt=""></button>
+    <button id="smallimg"><img style="height: 60%;" src="../Fylo-FronedMentor-Challenge/assets/icon-upload.svg" alt=""></button>
+  </div>
+  </div>
+  </div>
+  <div class="box-3">
+  <div id="leftgb">185GB left</div>
+  </div>
+  <div id="triangle"></div>
+</section>
+
   
 </body>
 </html>
