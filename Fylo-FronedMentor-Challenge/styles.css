@@ -1,0 +1,238 @@
+body{
+    
+    background-color: hsl(229, 57%, 11%);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.bottomBG{
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+.box1{
+    position: absolute;
+    height: 155px;
+    width: 300px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 80px 10px 5px;
+    left: 22%;
+    bottom: 38%;
+}
+.logo{
+    position: absolute;
+    top:15%;
+    height: 32px;
+    width: 110px;
+    margin-left: 15%;
+}
+/*.boxDoc{
+    position: absolute;
+    background-color: hsl(229, 57%, 11%);
+   height:40px;
+   width: 40px;
+   border-radius: 7px;
+   margin-left: 15%;
+   bottom: 20%;
+   
+}
+.icon1{
+    position: absolute;
+   height: 20px;
+   width: 19px;
+   margin-top: 9px;
+   margin-left: 10px;
+   
+}
+.boxFold{
+    position: absolute;
+    background-color: hsl(229, 57%, 11%);
+   height:40px;
+   width: 40px;
+   border-radius: 7px;
+   margin-left: 32%;
+   bottom: 20%;
+}
+.icon2{
+    position: absolute;
+   height: 18px;
+   width: 22px;
+   margin-top: 10px;
+   margin-left: 9px;
+   
+}
+.boxUp{
+    position: absolute;
+    background-color: hsl(229, 57%, 11%);
+   height:40px;
+   width: 40px;
+   border-radius: 7px;
+   margin-left: 49%;
+   bottom: 20%;
+}
+.icon3{
+    position: absolute;
+   height: 17px;
+   width: 25px;
+   margin-top: 10px;
+   margin-left: 7px;
+   
+}*/
+.container1{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    gap: 7px 17px;
+    row-gap: 7px;
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+
+}
+.boxA{
+    background-color: hsl(229, 57%, 11%);
+    height:40px;
+   width: 40px;
+   border-radius: 7px;
+}
+.icon1{
+    position: absolute;
+   height: 20px;
+   width: 19px;
+   margin-top: 9px;
+   margin-left: 10px;
+   
+}
+.boxB{
+    background-color: hsl(229, 57%, 11%);
+    height:40px;
+   width: 40px;
+   border-radius: 7px;
+}
+.icon2{
+    position: absolute;
+   height: 18px;
+   width: 22px;
+   margin-top: 10px;
+   margin-left: 9px;
+   
+}
+.boxC{
+    background-color: hsl(229, 57%, 11%);
+    height:40px;
+   width: 40px;
+   border-radius: 7px;
+}
+.icon3{
+    position: absolute;
+   height: 17px;
+   width: 25px;
+   margin-top: 10px;
+   margin-left: 7px;
+   
+}
+
+
+
+
+
+
+.box2{
+    position: absolute;
+    height: 110px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 6px;
+    left:48%;
+    bottom: 38%;
+}
+.main{
+    margin-left: 10%;
+    color: white;
+    font-family: Raleway;
+    font-size: 12px;
+}
+.line1{
+   position: absolute;
+   background-color: hsl(229, 57%, 11%);
+   height:15px;
+   width: 400px;
+   border-radius: 10px;
+   margin-left: 10%;
+    bottom: 35%;
+}
+.line2{
+    position: absolute;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    height:10px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 0.5%;
+    top: 20%;
+ }
+ .dot{
+    position: absolute;
+    background-color: white;
+    height:8px;
+    width: 8px;
+    border-radius: 10px;
+    margin-left: 97%;
+    top: 2%; 
+ }
+ .main1{
+    position: absolute;
+    font-family: Raleway;
+    color: white;
+    font-size: x-small; 
+    margin-left: 10%;
+    bottom: 10%;
+ }
+ .main2{
+    position: absolute;
+    font-family: Raleway;
+    color: white;
+    font-size: x-small; 
+    margin-left: 82%;
+    bottom: 10%;
+ }
+ .box3{
+    position: absolute;
+    height: 60px;
+    width: 140px;
+    background-color: white;
+    border-radius: 6px;
+    right: 17%;
+    bottom: 54%;
+ }
+ .bubble-bottom-right:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    
+    border-left: 30px solid transparent;
+    border-right: 0px solid #fff;
+    border-top: 40px solid #fff;
+    border-bottom: -30px solid transparent;
+    right:0px;
+    bottom: -20px;
+   
+  }
+ .main3{
+     position: absolute;
+     color: hsl(229, 57%, 11%);
+     font-family: Raleway;
+     bottom: 10%;
+     font-size: xx-large;
+     left: 20px;
+     bottom: 25%;   
+     font-weight: bolder;
+ }
+ .main4{
+    position: absolute;
+     color: gray;
+      bottom: 40%;
+     font-size: x-small;  
+     left: 80px;
+ }
