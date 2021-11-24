@@ -1,0 +1,138 @@
+.main-header{
+    background-color:#E4F9F5 ;
+}
+.top-cloud{
+    float: right;
+    margin-right: 300px;
+    margin-top: 20px;
+    width: 90px;
+    
+}
+.bottom-cloud{
+    float: left;
+    margin-left: 250px;
+    margin-bottom: 300px;
+    width: 90px;
+}
+.mountain{
+    margin-right:350px;
+    width: 350px;
+}
+h1{
+    text-align:center;
+    color: #66BFBF;
+    font-family: Sacramento;
+    margin-left: 30px;
+}
+h2{
+    text-align:center;
+    color: #66BFBF;
+    font-family: Montserrat;
+    font-size: medium;
+}
+
+body{
+    text-align: center;
+}
+.my-image{
+    border-radius: 50px;
+    width: 100px; 
+    margin-right: 350px;
+}
+p{
+    padding-left:500px;
+    padding-right:500px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: small;
+}
+.dot{
+    height: 3px;
+    width: 3px;
+    background-color: #EAF6F6;
+    border-radius: 50%;
+    display: inline-block;
+}
+.gif1{
+    width: 150px;
+    float: right;
+    padding-right: 300px;
+}
+h3{
+    padding-left:300px;
+    padding-right:500px;
+    color: #11999E;
+    font-family: Montserrat;
+    font-size: small;
+    text-align: left;
+}
+.peregreph1{
+    padding-left:300px;
+    padding-right:500px;
+    text-align: left;
+    font-family: Merriweather;
+    font-size: small;
+}
+
+.gif2{
+    width: 150px;
+    float: left;
+    padding-left: 300px;
+}
+.Debugging{
+    padding-left:500px;
+    
+    color: #11999E;
+    font-family: Montserrat;
+    font-size: small;
+    text-align: left;
+}
+.peregreph2{
+    padding-left:500px;
+    padding-right:300px;
+    text-align: left;
+    font-family: Merriweather;
+    font-size: small;
+}
+.if{
+    padding-left:500px;
+    padding-right:500px;
+    color: #11999E;
+    font-family: Montserrat;
+    font-size: small;
+    text-align: center;
+}
+.peregreph3{
+    padding-left:400px;
+    padding-right:400px;
+    text-align: center;
+    font-family: Merriweather; 
+    font-size: small;
+}
+button{
+    align-items: center;
+    color: white;
+    background-color: #11cdd4;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 12px;
+    transition-duration: 0.4s;
+     
+}
+button:hover {
+    background-color: #30e3cb;
+    color: white;
+}
+.main-footer{
+    background-color:#66BFBF;
+}
+h5{
+    color: #11999E;
+    text-align: center;
+    font-family: Montserrat;
+}
+.sign{
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
