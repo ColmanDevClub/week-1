@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Raleway';
+    color: white;
+    background-color: hsl(229, 57%, 11%);
+    display: flex;
+    flex-direction: column;  
+    background-image: url('./assets/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    align-items: center;
+    height: 100%;    
+}
+.main-div{
+    width:75%;
+    margin:auto;
+    display: flex;
+    flex:1;
+}
+.container{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.container-1{
+    flex:1;
+}.container-3{
+    flex:3;
+}
+.flexbox-item{
+    background-color: hsl(228, 56%, 26%);
+    margin:20px 32px;
+    padding:50px;
+}
+.flexbox-item-1{
+    flex:1;
+    width:100px;
+    border-radius: 10px 100px 10px 10px;
+    
+}
+.flexbox-item-2{
+    flex: 3;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    padding: 25px;
+}
+.upload-logos{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px 3px;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px;
+}
+.upload-imgs{
+    margin: 5px;
+    top: 10px;
+    display: inline-block;
+    position: relative;
+}
+#progress-bar-container{
+    width:90%;
+    margin:auto;
+    height:20px;
+    background-color: hsl(228, 87%, 17%);
+    border-radius: 15px;
+    position: relative;
+    padding:3px;
+}
+#progress-bar-indicator{
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+}
+#zero-p{
+    float:left;
+    margin-left: 25px;
+}
+#thousand-p{
+    float:right;
+    margin-right: 25px;
+}
+#used-p{
+    display: inline-block;
+    margin-left:25px;
+}
+.bubble-msg{
+    position:absolute;
+    top:-50px;
+    right:25px;
+    width:100px;
+    background-color: white;
+    color:black;
+    border-radius: 15px 15px 0px 15px;
+    padding: 20px;
+    text-align: center;
+}
+.bubble-bottom-left:before{
+    content:"";
+    width:0px;
+    height: 0px;
+    position: absolute;
+    border-left: 12px solid transparent;
+    border-right: 24px solid white;
+    border-top:12px solid white;
+    border-bottom: 20px solid transparent;
+    bottom:-20px;
+    right:0px;
+}
