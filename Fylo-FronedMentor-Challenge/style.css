@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(./assets/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: 100%;
+}
+
+.whiteBar__bold {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22.4px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 200px;
+    flex-basis: 80vw;
+}
+
+
+/***** options *****/
+
+.upload {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-basis: 30%;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 90px 10px 10px;
+    box-shadow: 0px 10px 30px hsl(229, 57%, 11%);
+}
+.logo {
+    padding: 40px 0px 30px 50px;
+}
+
+.upload__method {
+    display: flex;
+    width: 100%;
+    padding: 0px 50px;
+}
+.upload__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+.upload__img:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+/***** storage *****/
+.storage {
+    position: relative;
+    height: 100%;
+    flex-basis: 65%;
+}
+
+.storageBox {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    transform: translate(0%, -100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 50px;
+    height: 75%;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px hsl(229, 57%, 11%);
+}
+
+/***** progress bar *****/
+.storageBox__progressBarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.progressBar {
+    background-color: hsl(229, 57%, 11%);
+    height: 20px;
+    width: 100%;
+    outline: 2px solid hsl(229, 57%, 11%);
+    border-radius: 50px;
+}
+.progressBar__fill {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    height: 100%;
+    width: 70%;
+    border-radius: 50px;
+}
+.progressBar__ball {
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50px;
+    outline: 2px solid hsl(335, 100%, 65%);
+}
+.storageBox__minAndMax {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/***** white bar *****/
+.storage__whiteBarContainer {
+    position: absolute;
+    left: 90%;
+    transform: translate(-100%,0%);
+    z-index: 1;
+}
+.whiteBar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 190px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 15px;
+}
+.whiteBar__triangle {
+    position: absolute;
+    border-top: 20px solid transparent;
+	border-right: 35px solid white;
+	border-bottom: 30px solid transparent;
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%,-70%);
+}
+.whiteBar__text {
+    color: rgb(168, 167, 167);
+    font-size: 16px;
+}
+
+
+
+/***** mobile *****/
+@media (max-width: 1050px) {
+    body {
+        background-image: url(./assets/bg-mobile.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .main {
+        flex-direction: column;
+        height: 65%;
+        flex-basis: 85vw;
+    }
+    .mainText {
+        font-size: 1.1em;
+    }
+    .upload {
+        flex-basis: 45%;
+        justify-content: space-around;
+        border-radius: 15px 90px 15px 15px;
+        padding: 3vh;
+    }
+
+    .storage {
+        flex-basis: 50%;
+    }
+    .logo {
+        padding: 3vw;
+
+    }
+    .logo img {
+        height: 6vh;
+    }
+    .upload__method {
+        width: auto;
+        padding: 0px 1vw;
+    }
+    .upload__img {
+        width: 8vh;
+        height: 8vh;
+        align-items: stretch;
+        padding: 2vh;
+    }
+    .storageBox {
+        border-radius: 15px;
+        padding: 3vh 7vw;
+        text-align: center;
+        height: 75%;
+        top: 25vh;
+    }
+    .storage__whiteBarContainer {
+        left: 50%;
+        bottom: -20%;
+        transform: translate(-50%,0%);
+    }
+    .whiteBar {
+        justify-content: space-around;
+        height: 100px;
+        width: 250px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .whiteBar__bold {
+        margin-right: 5px;
+    }
+    .whiteBar__triangle {
+        border-right: 35px solid transparent;
+    }
+    .whiteBar__text {
+        font-size: 22.4px;
+    }
+}

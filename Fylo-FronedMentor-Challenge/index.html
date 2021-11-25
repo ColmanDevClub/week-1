@@ -3,20 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <title>Fylo data storage component</title>
 </head>
 
 <body>
+  <div class="container">
+    <div class="main">
+      
+      <div class="upload">
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="Fylo">
+        </div>
+        <div class="upload__method">
+          <div class="upload__img">
+            <img src="./assets/icon-document.svg" alt="document">
+          </div>
+          <div class="upload__img">
+            <img src="./assets/icon-folder.svg" alt="folder">
+          </div>
+          <div class="upload__img">
+            <img src="./assets/icon-upload.svg" alt="upload">
+          </div>
+        </div>
+      </div>
 
-  You’ve used 815 GB of your storage
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
+
+      <div class="storage">
+        <div class="storage__whiteBarContainer">
+          <div class="whiteBar">
+            <div class="whiteBar__triangle"></div>
+            <h1 class="whiteBar__bold">185</h1>
+            <p class="whiteBar__text"><b>GB LEFT</b></p>
+          </div>
+        </div>
+        <div class="storageBox">
+          <p>You've used <b>815 GB </b>of your storage</p>
+          <div class="storageBox__progressBarContainer">
+            <div class="progressBar">
+              <div class="progressBar__fill">
+                <div class="progressBar__ball"></div>
+              </div>
+            </div>
+            <div class="storageBox__minAndMax">
+              <p>0 GB</p>
+              <p>1000 GB</p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
   
 </body>
 </html>
