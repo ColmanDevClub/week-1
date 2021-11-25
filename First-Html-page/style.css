@@ -1,0 +1,140 @@
+.top{
+    background-color: #E4F9F5;
+    height: 520px;
+    margin-bottom: 20px;
+
+}
+body{
+     color: #40514E;
+    text-align: center;
+}
+.main{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.topCloud{
+    margin-bottom: 30px;
+    position: relative;
+    right: 300px;
+    top:40px;
+    float: right;
+
+   object-fit: cover;
+  object-position: 15% 100%;
+    
+}
+.bottomCloud{
+    position: relative;
+    left:250px;
+    top:100px;
+    float: left;
+}
+.profil{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    margin-bottom: 15px;
+   
+
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #EAF6F6;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+h1{
+    position: relative;
+    left: 70px;
+    top: 150px;
+    font-family:'Sacramento';
+    text-align: center;
+    color: #66BFBF;
+}
+h2{
+    position:relative;
+    left:70px;
+    top:120px;
+    font-family: 'Montserrat';
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Montserrat';
+    color: #66BFBF;
+}
+h4{
+    font-family: 'Montserrat';
+    color: #11999E;
+}
+
+h5{
+    color:#EAF6F6;
+}
+h6{
+    font-family: 'Montserrat';
+    color: #11999E;
+}
+.mountain{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top:100px;
+    right: 70px;
+}
+
+.div1{
+   
+    text-align: left;
+    direction: ltr;
+    position:relative;
+    bottom: 70px;
+    margin-bottom: 50px;
+
+}
+.div2{
+   position:relative;
+   left: 220px;
+   bottom: 140px;
+    text-align: left;
+    direction: ltr;
+    
+}
+
+.gif1{
+    position: relative;
+    left: 500px;
+    top:60px;
+    width: 70px;
+    height:150px;
+}
+footer{
+    background-color: #66BFBF;
+    color: #EAF6F6;
+
+}
+
+.gif2{
+    position: relative;
+   
+    right: 50px;
+    width: 100px;
+    height: 150px;
+}
+button{
+    color:white;
+    background-color: #11cdd4;
+    border-radius: 15px;
+    border: 1px solid #30e3cb;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button:hover{
+    background-color: #30e3cb;
+    color: white;
+}
+.link{
+    margin-right: 15px;
+}

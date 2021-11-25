@@ -1,0 +1,175 @@
+.main{
+    background-color: hsl(229, 57%, 11%);
+
+}
+.desktopImg{
+    position: fixed;
+    top:340px;
+}
+.div1{
+    background-color:  hsl(228, 56%, 26%);
+    color:white;
+    border-radius: 15px 70px 15px 5px;
+    font-family: Raleway;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top:230px;
+    left:200px;
+}
+.div2{
+    background-color:  hsl(228, 56%, 26%);
+    color:hsl(243, 100%, 93%);
+    font-family: Raleway;
+    width: 600px;
+    height: 120px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left:550px;
+    top:110px;
+}
+.div3{
+    height:15px;
+    width: 500px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    background-color:  hsl(229, 57%, 11%);
+    border-radius: 20px;
+    border: 2px solid hsl(229, 57%, 11%);
+}
+.div4{
+    position: relative;
+    height: 100%;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 20px;
+    width:80%;
+   
+
+}
+.circle{
+    position:absolute;
+    left: 96%;
+    top:3%;
+    height: 93%;
+    width: 15px;
+    background:white;
+    border-radius: 50%;
+}
+
+.p1{
+    position: absolute;
+    right:50%;
+    top:7%;
+}
+.p2{
+    position: absolute;
+    top: 53%;
+    left: 6%;
+    color:white;
+}
+.p3{
+    position: absolute;
+    left:78%;
+    top:53%;
+    color:white;
+}
+.fylo{
+    position: absolute;
+    top:25%;
+    left:10%;
+}
+.flexbox{
+    background-color:hsl(228, 56%, 26%);
+    box-sizing: border-box;
+    padding:8px;
+    margin:30px;
+    display:flex;
+    width:220px;
+    height: 60px;
+    position: absolute;
+    top: 70px;
+    left:10px;
+    flex-wrap: wrap;
+
+}
+.item1{
+    flex: 1;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    margin-right: 10px;
+    align-content: center;
+    
+}
+.item2{
+    flex: 1;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.item3{
+    flex:1;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+.icon1{
+    position: absolute;
+    top:30%;
+    margin-left: 22px;
+}
+.icon2{
+    position: absolute;
+    top:32%;
+    margin-left: 18px;
+}
+.icon3{
+    position: absolute;
+    top:35%;
+    margin-left: 18px;
+}
+.bubble{
+
+    position: absolute;
+    right: 23%;
+    bottom: 55%;
+    float: right;
+    width: 150px;
+    height: 80px;
+    font-family: Raleway;
+    border-radius: 15px 15px 0px 15px;
+    background-color: white;
+    text-align: left;
+}
+.bubble-bottom-right:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    
+    border-left: 30px solid transparent;
+    border-right: 0px solid #fff;
+    border-top: 40px solid #fff;
+    border-bottom: -30px solid transparent;
+    right:0px;
+    bottom: -20px;
+   
+  }
+.span1{
+    position: absolute;
+    top:20%;
+    left:10%;
+    color:hsl(229, 57%, 11%) ;
+    font-size: 35px;
+    font-weight:bolder;
+
+}
+.p4{
+    text-align: right;
+    font-size: 15px;
+    position:absolute;
+    left: 55%;
+    top:20%;
+    font-weight: bolder;
+    color:hsl(229, 7%, 55%);
+}
