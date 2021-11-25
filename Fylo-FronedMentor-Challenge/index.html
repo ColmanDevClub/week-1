@@ -4,19 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="assets/style.css">
+
   <title>Fylo data storage component</title>
 </head>
 
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+  <div class="main">
+    <img class="mainImg" src="assets/bg-desktop.png"/>
+    <div class="row">
+      <div class="leftShape">
+        <div class="container1">
+          <img class="logo" src="assets/logo.svg">
+          <div class="iconsContainer">
+            <div class="iconDiv">
+              <img  class="icon" src="assets/icon-document.svg">
+            </div>
+            <div class="iconDiv">
+              <img class="icon" src="assets/icon-folder.svg">
+            </div>
+            <div class="iconDiv">
+              <img  class="icon" src="assets/icon-upload.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rightShape mainText white">
+        <div class="container2">
+          <p class="mainText white">You’ve used</p><p class="mainText white bold">&nbsp; 815 GB &nbsp;</p><p class="mainText white">of your storage</p>
+          <div class="progress-bar-container">
+            <div class="progress-bar-child">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <p class="mainText white bold">0 GB</p><p class="mainText white right bold">1000 GB</p>
+        </div>
+      </div>
+      <div class="talkBubble">
+        <p class="headline">185</p><p class="mainText gray bold">GB LEFT</p>
+      </div>
+      <div class="triangle"></div>
+    </div>
+  </div>
 </body>
 </html>

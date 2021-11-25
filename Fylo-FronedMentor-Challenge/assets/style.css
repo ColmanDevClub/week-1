@@ -1,0 +1,178 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    margin: auto;
+    background-color: black;
+    font-family: Raleway;
+}
+
+@media(min-width: 768px) {
+    .row {
+        display: flex;
+        align-items: flex-end;
+        width: 80%;
+        position: relative;
+        margin: auto;
+        top: 38%;
+        justify-content: center;
+    }
+}
+  
+.mainImg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+}
+
+.main {
+    background-color: hsl(229, 57%, 11%); 
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.leftShape {
+    display: inline-block;
+    width: 252px;
+    height: 145px;
+    background: hsl(228, 56%, 26%);
+    position: relative;
+    border-radius: 8px 70px 8px 8px;
+    margin-right: 20px;
+}
+
+.rightShape {
+    display: inline-block;
+    width: 390px;
+    height: 110px;
+    background: hsl(228, 56%, 26%);
+    position: relative;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.container1 {
+    width: 78%;
+    height: 80%;
+    top: 20%;
+    margin: auto;
+    position: relative;
+}
+
+.container2 {
+    width: 85%;
+    height: 60%;
+    top: 23%;
+    margin: auto;
+    position: relative;
+}
+
+.talkBubble {
+    text-align: center;
+    position: absolute;
+    width: 130px;
+    height: 55px;
+    background: white;
+    border-radius: 8px;
+    right: 20%;
+    top: 0;
+}
+
+.triangle {
+    display: inline-block;
+    position: absolute;
+    border-top: 25px solid white;
+    border-left: 25px solid transparent;
+    right: 20%;
+    top: 47px;
+}
+
+.headline {
+    display: inline-block;
+    font-size: 28px;
+    font-weight:bold;
+    margin: 0;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.mainText {
+    display: inline-block;
+    font-size: 10px;
+    margin: 0;
+}
+
+.bold {
+    font-weight:bold; 
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: hsl(229, 7%, 55%);
+}
+
+.progress-bar-container {
+	width: 100%;
+	height: 12px;
+	margin: auto;
+    margin-top: 20px;
+    margin-bottom: 2px;
+	position: relative;
+	transform: translateY(-50%);
+	border-radius: 35px;
+	overflow: hidden;
+    background-color: hsl(229, 52%, 19%); 
+}
+
+.progress-bar-child {
+    position: relative;
+	width: 75%;
+	height: 100%;
+    border-radius: 35px;
+	background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+    border: 1.5px solid black;
+}
+
+.circle {
+    width: 4%;
+    height: 80%;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    width: 50%;
+}
+
+.iconsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 68%;
+    margin-top: 20px;
+}
+
+.iconDiv {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+    padding: 8px;
+    width: 18px;
+    height: 18px;
+    margin: auto;
+}
+
+.icon {
+    width: 90%;
+    margin: auto;
+}

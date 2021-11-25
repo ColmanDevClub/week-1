@@ -1,0 +1,140 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #E4F9F5;
+  height: 80%; 
+  position: relative;
+}
+
+.main {
+  height: 210%;
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+.bottomMain {
+  width: 80%;
+  margin: auto;
+  padding-top: 18%;
+}
+
+.contactMain {
+  height: 20%;
+  margin: auto;
+  background-color: #66BFBF;
+}
+
+.firstTitle {
+  font-family: Sacramento;
+  color: #66BFBF;
+  font-size:240%;
+  font-weight: bold;
+}
+
+.secondTitle {
+  font-family: Montserrat;
+  color: #66BFBF;
+  font-size:120%;
+}
+
+.thirdTitle {
+  font-family: Montserrat;
+  text-align: left;
+  color: #11999E;
+  font-size:90%;
+  font-weight: bold;
+}
+
+.dotsText {
+  color: #E4F9F5;
+  font-size:250%;
+}
+
+.mainText {
+  font-family: Merriweather;
+  text-align: left;
+  color: #40514E;
+  font-size:70%;
+}
+
+.applicationsText {
+  font-family: Montserrat;
+  color: #11999E;
+  font-size:70%;
+}
+
+.devclubText {
+  font-family: Montserrat;
+  color: #EAF6F6;
+  font-size:50%;
+}
+
+.mountain {
+  margin: auto;
+  width: 33%;
+  display: block;
+}
+
+.cloud1 {
+  position: relative;
+  right: 300px;
+  bottom: 200px;
+  width: 8%;
+}
+
+.cloud2 {
+  position: relative;
+  left: 250px;
+  bottom: 300px;
+  width: 8%;
+}
+
+.profile {
+  width: 20%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: #11cdd4;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: Montserrat;
+}
+
+.button:hover {
+  background-color: #30e3cb;
+}
+
+.text {
+  width: 70%;
+  float: left;
+}
+
+.img {
+  width: 20%;
+  float: left;
+  padding-right: 50px;
+}
+
+.row2 {
+  padding-top: 28%;
+}
