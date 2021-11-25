@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(./assets/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    height: 1020px;
+    background-size: 100%;
+}
+.mainText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22.4px;
+    color: white;
+}
+ .container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    flex-basis: 80vw;
+}
+.fylobackround {
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+    flex-basis: 30%;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 90px 10px 10px;
+}
+.Fylo-logo {
+    padding: 40px 0px 30px 50px;
+}
+.icons {
+    display: flex;
+    width: 100%;
+    padding: 0px 50px;
+}
+.icons div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.GB-left {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.storage {
+    position: relative;
+    flex-basis: 65%;
+    height: 100%;    
+}
+.rectangleContainer {
+    position: absolute;
+    left: 95%;
+    transform: translate(-100%,0%);
+    z-index: 1;
+}
+.rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 190px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 15px;
+}
+.triangle {
+    position: absolute;
+	border-top: 20px solid transparent;
+	border-right: 35px solid white;
+	border-bottom: 30px solid transparent;
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%,-40%);
+}
+.text-GB {
+    color:hsl(229, 7%, 55%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+
+}
+.storageBox {
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    top: 100%;
+    width: 100%;
+    flex-basis: 100%;
+    transform: translate(0%, -100%); /*moving an element to a point in the screen (after watching transform crash curce) */
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px 50px;
+    height: 75%;
+    background-color: hsl(228, 56%, 26%);
+    
+}
+.progressBarContainer {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.progressBar {
+     background-color:hsl(229, 54%, 15%);
+    height: 20px;
+    width: 100%;
+    outline: 2px solid hsl(229, 48%, 14%);
+    border-radius: 50px;
+}
+.progressBarFill {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    height: 100%;
+    width: 70%;
+    border-radius: 50px;
+}
+.progressBarBall {
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50px;
+    outline: 2px solid hsl(335, 100%, 65%);
+}
+.lastGB {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway', sans-serif;
+    justify-content:space-between;
+    font-size: 22.4px;
+    color: white;
+
+}
+
+

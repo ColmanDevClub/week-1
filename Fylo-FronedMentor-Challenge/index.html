@@ -1,22 +1,66 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <title>Fylo data storage component</title>
 </head>
 
+
 <body>
+<div class="container-1">
+ <div class="main">
+  <div class="fylobackround">
+   <div class="Fylo-logo">
+     <img src="./assets/logo.svg" alt="Fylo-logo">
+  </div>
+   <div class="icons">
+     <div>
+     <img src="./assets/icon-document.svg" alt="document-icon">
+    </div>
+   <div>
+   <img src="./assets/icon-folder.svg" alt="folder-icon">
+  </div>
+  <div>
+  <img src="./assets/icon-upload.svg" alt="upload-icon">
+  </div>
+  </div>
+   </div>
+   
+   <div class="storage">
+    <div class="rectangleContainer">
+      <div class="rectangle">
+        <div class="triangle"></div>
+        <p class="GB-left">185</p>
+        <p class="text-GB"><b>GB LEFT</b></p>
+      </div>
+    </div>
 
-  You’ve used 815 GB of your storage
+    <div class="storageBox">
+      <p class="mainText">You've used <b>815 GB </b>of your storage</p>
+      <div class="progressBarContainer">
+        <div class="progressBar">
+          <div class="progressBarFill">
+            <div class="progressBarBall"></div>
+          </div>
+        </div>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+      </div>
+      <div class="lastGB">
+         <div>0 GB</div>
+        <div> 1000 GB</div>
+    </div>
+
+  </div>    
+ </div>   
+ </div>
+</div>
+</div>
 </body>
 </html>
