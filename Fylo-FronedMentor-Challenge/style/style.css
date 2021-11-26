@@ -1,0 +1,59 @@
+html {
+  min-height: fit-content;
+  min-width: fit-content;
+}
+
+body {
+  display: flex;
+  background-color: hsl(229, 57%, 11%);
+  background-image: url("../assets/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 21%;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  column-gap: 32px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  flex: auto;
+  width: 1240px;
+}
+.left_b {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+  background: hsl(228, 56%, 26%);
+  order: 1;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px 110px 10px 10px;
+}
+.right_b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2px;
+  background: hsl(228, 56%, 26%);
+  order: 2;
+  height: 150px;
+  width: 580px;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+}

@@ -1,0 +1,57 @@
+@media only screen and (max-width: 768px) {
+  body {
+    display: flex;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url("../../assets/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: -8%;
+    margin-top: 40%;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex: auto;
+    width: 450px;
+  }
+  .left_b {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+    background: hsl(228, 56%, 26%);
+    order: 1;
+    height: 200px;
+    width: 350px;
+    border-radius: 10px 110px 10px 10px;
+  }
+  .right_b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2px;
+    background: hsl(228, 56%, 26%);
+    order: 2;
+    height: 150px;
+    width: 350px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+  }
+}

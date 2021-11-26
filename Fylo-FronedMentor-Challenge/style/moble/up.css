@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px) {
+  .logo {
+    padding: 5%;
+    margin: auto auto -15px 30px;
+  }
+  .svgs {
+    display: inline-block;
+    margin: auto;
+  }
+  .bouttens {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: first baseline;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: -1px -19px 16px 20px;
+  }
+  .doc {
+    padding: 14px;
+    margin: 5px -140px 5px 5px;
+    background-color: hsl(229, 57%, 11%);
+    order: 1;
+    border-radius: 10px 10px 10px 10px;
+    align-self: center;
+  }
+  .upload {
+    padding: 16px;
+    margin: 0px -190px 1px -5px;
+    background-color: hsl(229, 57%, 11%);
+    order: 2;
+    border-radius: 10px 10px 10px 10px;
+    align-self: center;
+  }
+  .folder {
+    padding: 15px;
+    margin: -3px 163px -2px 44px;
+    background-color: hsl(229, 57%, 11%);
+    order: 3;
+    border-radius: 10px 10px 10px 10px;
+    align-self: center;
+  }
+}
