@@ -1,0 +1,134 @@
+h1 {
+  color: #66bfbf;
+  font-family: Sacramento;
+}
+h2 {
+  color: #66bfbf;
+  font-family: Montserrat;
+}
+h3 {
+  color: #11999e;
+  font-family: Montserrat;
+}
+p {
+  font-family: Merriweather;
+  color: #40514e;
+}
+
+body {
+  display: block;
+  height: auto;
+  width: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: #e4f9f5;
+}
+.MyPic {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
+.text {
+  justify-self: center;
+}
+.top_cloud {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2px 250px 2px 2px;
+}
+.bottom_cloud {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2px 2px 2px 250px;
+}
+.mount {
+  display: flex;
+  justify-content: center;
+}
+.max_w {
+  max-width: 100%;
+}
+header h1,
+h2 {
+  text-align: center;
+}
+
+main {
+  display: block;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-left: 27%;
+  margin-right: 27%;
+}
+.sec {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.box {
+  text-align: justify;
+  padding-left: 2%;
+}
+
+.img_main {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.contact {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main button:hover {
+  background-color: #30e3cb;
+}
+main button {
+  font-family: Montserrat;
+  border: none;
+  background-color: #11cdd4;
+  border-radius: 5px;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+footer {
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding: 3%;
+  background-color: #66bfbf;
+}
+.links {
+  color: #11999e;
+  font-family: Montserrat;
+  padding-bottom: 2%;
+}
+.links a {
+  margin-left: 1%;
+}
+.links a:hover {
+  color: #10ced4;
+}
+.links a:visited {
+  color: #11999e;
+}
+.links a:link {
+  color: #11999e;
+}
+.links a:active {
+  color: #11999e;
+}
+.copy_right p {
+  color: green;
+}
