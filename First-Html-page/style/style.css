@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clr
+{
+    clear:both;
+}
+
+
+
+.introPhoto{
+    width: 100%;
+    height: 500px;
+    background-color: #E4F9F5;
+    color: #66BFBF;
+    position:relative;
+    top:0;
+    bottom:0;
+}
+
+
+.introPhoto .upperCloud
+{
+    position:absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.introPhoto h2{
+    font-family: 'Sacramento';
+    font-size: 3em;
+    padding-top: 85px;
+    text-align: center;
+
+}
+
+.introPhoto h3{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.introPhoto h3 span
+{
+    text-decoration: underline;
+}
+
+.introPhoto .bottomCloud
+{
+    position: absolute;
+    left: 250px;
+    bottom: 150px;
+}
+
+.introPhoto .mountain
+{
+    position: absolute;
+    bottom:0;
+    width: 400px;
+    height: auto;
+    margin-left: 40%;
+}
+
+.gitHubPhoto
+{
+    display: block;
+    margin: 50px auto;
+    width: 150px;
+    border-radius: 50%;
+  
+}
+
+.header{
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #66BFBF;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header .dots
+{
+    font-size: x-large;
+    letter-spacing: 5px;
+}
+
+.container
+{
+    color: #40514E;
+    font-family: 'Merriweather';
+    font-size: small;
+    text-align: center;
+    line-height: 30px;
+}
+
+.text-box
+{
+    margin: 100px 25%;
+}
+
+.main-box
+{
+    float:left;
+    width: 70%;
+    font-family: 'Merriweather';
+}
+
+.main-box h5{
+    color: #11999E;
+    font-style: bold;
+}
+
+.main-box p{
+    color: #40514E;
+    font-size: smaller;
+    line-height: 30px;
+}
+
+.sidebar
+{
+    float:right;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.sidebar .gif
+{
+    width: 75%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+
+.main-box1
+{
+    float:right;
+    width: 70%;
+    font-family: 'Merriweather';
+}
+
+.main-box1 h5{
+    color: #11999E;
+    font-style: bold;
+
+}
+
+.main-box1 p{
+    color: #40514E;
+    font-size: smaller;
+    line-height: 30px;
+}
+
+.sidebar1
+{
+    float:left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.sidebar1 .gif
+{
+    width: 75%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+
+.header5
+{
+    text-align: center;
+    color: #11999E;
+    font-style: bold;
+    font-family:'Montserrat' ;
+    font-size: medium;
+}
+
+.container p
+{
+    margin: 50px 33.3%;
+    text-align: center;
+}
+
+.contactButton
+{
+    background: #11cdd4;
+    color: white;
+    font-family: 'Montserrat';
+    padding: 5px;
+    border-radius: 2px;
+    border:none;
+    text-align: center;
+    margin: 20px;
+}
+
+.contactButton:hover
+{
+    color: #30e3cb;
+}
+
+.main-footer
+{
+
+    background: #66BFBF;
+    color: #11999E;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    word-spacing: 50px;
+
+}
+
+.main-footer p
+{
+    padding-top: 30px;
+    color: #EAF6F6;
+    word-spacing: normal;
+
+}
+
+
+
+
+
+
+
