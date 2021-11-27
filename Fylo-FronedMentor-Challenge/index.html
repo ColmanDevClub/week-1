@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Fylo data storage component</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Fylo data storage component</title>
-</head>
-
-<body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-</body>
+  <body class="background">
+    <div>
+      <span class="boxes">
+        <section class="left_box">
+          <div>
+            <img class="fylo" src="assets/logo.svg">
+          </div>
+          <span>
+            <img class="logos" src="assets/icon-document.svg">
+            <img class="logos" src="assets/icon-folder.svg">
+            <img class="logos" src="assets/icon-upload.svg">
+          </span>
+        </section>
+        <section class="float_box">
+          <div>
+            <span class="gb_number">185</span>
+            <span class="amount_left">GB LEFT</span>
+          </div>
+        </section>
+        <div class="triangle">
+        </div>
+        <section class="right_box">
+          <p class="content">You've used <strong class="bold">815 GB</strong> of your storage</p>
+          <div>
+            <span>
+              <div class="progress"><div class="progress2"><div><hr class="dotted"></div></div></div>
+            </span>
+          </div>
+        <div>
+          <span class="progress_text1"><strong>0 GB</strong></span>
+          <span class="progress_text2"><strong> 1000 GB</strong></span>
+        </div>
+        </section>
+      </span>
+    </div>
+    <div>
+      <img class="footer_bg" src="assets\bg-desktop.png">
+    </div>
+  </body>
 </html>

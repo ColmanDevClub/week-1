@@ -1,0 +1,145 @@
+.background{
+    background-color:hsl(229, 57%, 11%);
+    margin: 0px;
+}
+.boxes{
+    display: grid;
+    padding-top: 248px;
+    margin-bottom: 30px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+.left_box{
+    width: 15%;
+    border-radius: 10px 100px 10px 10px;
+    margin-top: 45px;
+    background-color: hsl(228, 56%, 26%) ;
+    padding: 30px;
+    height: 145px;
+    text-align: left;
+    float: left;
+    position: absolute;
+    left: 20%;
+}
+.fylo{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.logos{
+    border-radius: 10px;
+    margin:5px;
+    padding: 12px;
+    height: 55px;
+    width: 55px;
+    background-color: hsl(229, 57%, 11%);
+    box-sizing: border-box;
+}
+.float_box{
+    border-radius: 10px;
+    background-color: white ;
+    text-align: left;
+    width: 25%;
+    height: 160%;
+    left: 123%;   
+    top: 55%;
+    position: relative;
+    z-index: 1;
+}
+.gb_number{
+    font-size: 300%;
+    top: 17px;
+    left: 35px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 900 ;
+    position: relative;
+}
+.amount_left{
+    font-size: 100%;
+    top: 10px;
+    left: 45px;
+    color: hsl(229, 7%, 55%);
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700 ;
+    position: relative;
+}
+.triangle{
+    width: 0;
+	height: 0;
+    left: 44.3%;
+    top: 200%;
+	border-left: 35px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 35px solid white;
+    position: relative;
+    z-index: 2;
+}
+.right_box{
+    width: 35%;
+    border-radius: 10px;
+    padding: 30px;
+    height: 100px;
+    margin: 90px 200px 200px 20px;
+    background-color: hsl(228, 56%, 26%) ;
+    text-align: left;
+    left:38%;    
+    position: absolute;
+}
+.content{
+    padding-left: 30px;
+    color: hsl(229, 7%, 55%) ;
+    font-family: Raleway;
+}
+.bold{
+    color: hsl(229, 7%, 55%);
+}
+.progress {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+    width: 600px;
+    border-radius: 1000px;
+    height: 16px;
+    padding-top: 1px;
+    position: relative;
+    background: hsl(229, 57%, 11%);
+    margin-bottom: 10px;
+}
+.progress2{
+    margin: 0px;
+    padding: 0px;
+    width: 450px;
+    margin-bottom: 4px;
+    margin-top: 2px;
+    margin-left: 3px;
+    border-radius: 1000px;
+    height: 11px;
+    background: linear-gradient( to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%) );
+}
+hr.dotted {
+    opacity: 1;
+    width: 3%;
+    padding-top: 1px;
+    margin-top: 1px;
+    border: 0px;
+    border-top: 10px dotted white;
+    margin-left: 438px;
+}
+.progress_text1{
+    padding-left: 30px;
+    color: hsl(229, 7%, 55%) ;
+    font-family: Raleway;
+}
+.progress_text2{
+    padding-left: 500px;
+    margin-bottom: 50px;
+    color: hsl(229, 7%, 55%) ;
+    font-family: Raleway;
+}
+.footer_bg{
+    margin-top: 50px;
+    width: 100%;
+    height: 0%;
+    margin-bottom: -4px;
+}
