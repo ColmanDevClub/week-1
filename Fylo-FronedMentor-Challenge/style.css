@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 48px;
+}
+body {
+  background: hsl(229, 57%, 11%);
+  background-image: url(/assets/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 500px;
+  font-family: "Raleway";
+}
+
+section {
+  border: 10px;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  min-width: 0;
+}
+
+.content-item {
+  margin: 30px;
+  min-width: 0;
+}
+.flyobox {
+  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 170px;
+  background-color: hsl(228, 56%, 26%);
+  border-top-right-radius: 100px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.flyhead {
+  margin-left: 20px;
+}
+.icons {
+  padding: 7px;
+  size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.item {
+  background-color: rgb(13, 25, 37);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 15px;
+}
+p {
+  color: white;
+  font-family: "Raleway";
+  font-size: 18.4px;
+}
+.download {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 15px;
+  min-height: 80px;
+}
+.progres {
+  display: flex;
+  justify-content: center;
+}
+.progresbar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  opacity: 0.9;
+  width: 600px;
+  height: 1.5rem;
+  top: 20px;
+  background-color: black;
+  border-radius: 20px;
+  min-width: 0;
+  order: 2;
+}
+.inprogress {
+  position: absolute;
+  background-image: linear-gradient(to right, #ffa399, #ff4d97);
+  left: 0.25em;
+  top: 0.3em;
+  bottom: 0.25em;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.amount {
+  order: 1;
+  margin-top: 50px;
+}
+.amount2 {
+  order: 3;
+  margin-top: 50px;
+}
+.left {
+  display: inline;
+  color: black;
+}
+.speach {
+  position: relative;
+  left: 60%;
+  bottom: 10%;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
