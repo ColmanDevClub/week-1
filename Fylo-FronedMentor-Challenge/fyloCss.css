@@ -1,0 +1,148 @@
+body{
+  background-color:  hsl(229, 57%, 11%);
+  background-image: url(/assets/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-attachment: fixed;
+  background-size: 100% 50% ;
+}
+div{
+  font-family: 'Raleway';
+  font-size: 22.4px;
+  font-weight: normal;
+}
+.headline{
+  font-size: 48px;
+}
+.container-1{
+    display:flex;  
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    /* position */
+    position:absolute;
+    top: 25%;
+    right: 10%;
+    left: 10%;
+    bottom: 20%;
+  }
+.container-1 .container-1-box{
+  background-color: hsl(228, 56%, 26%);
+  padding:10px;
+  color: #ccc;
+  border-radius: 7px;
+}
+.container-1 .box1{
+  /* box left */
+  border-top-right-radius: 80px;
+}
+.container-1-box{
+  padding-bottom: 20em;
+  margin-bottom: 2em;
+  flex-basis: 40%;  
+}
+.iconsContainerBox{
+  flex-basis: 10%;
+    
+}
+.iconsContainer .iconsContainerBox{
+  background-color:hsl(240, 40%, 2%);
+  border-radius: 7px;
+  height: 20px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.iconsContainer{
+  position: static;
+  display:flex;  
+  justify-content: space-around;
+  margin-right: 40%;
+  margin-left: 5%;
+}
+.imgLogo{
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+  /* Progress bar gradient */
+progress, progress::-webkit-progress-value {
+  width: 400px;
+  border: 0;
+  height: 20px;
+  border-radius: 20px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+ progress::-webkit-progress-bar {
+  width: 400px;
+  border: 0;
+  height: 20px;
+  border-radius: 20px;
+  background:  hsl(229, 57%, 11%);
+}
+progress::-moz-progress-bar {
+  width: 500px;
+  border: 0;
+  height: 20px;
+  border-radius: 20px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+} 
+  /* WhiteBox */
+.lineBar{
+  position: relative;
+}
+.whiteDiv{
+  position: absolute;
+  right: 5%;
+  bottom: 135%;
+  padding: 15px;
+  color: black;
+  background-color: white;
+  width: 140px;
+  border-radius: 7px;
+  border-bottom-right-radius: 0px;
+  }
+  .leftGB{
+    font-size: 42px;
+  }
+  .triangle-topright {
+    position:absolute;
+    right: 5%;
+    top:-35%;
+    width: 0;
+    height: 0;
+    border-top: 20px solid white;
+    border-left: 20px solid transparent;
+  }
+  .value{
+    display:flex;  
+    justify-content:space-between;
+  }
+  .text1color{
+    color:  hsl(229, 7%, 55%);
+  }
+ 
+  @media only screen and (max-width: 680px) {
+    body{  
+      background-image: url(/assets/bg-mobile.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover ;
+    }
+    .whiteDiv{
+      position: absolute;
+      right: 25%;
+      bottom: -50%;
+      padding: 15px;
+      color: black;
+      background-color: white;
+      width: 140px;
+      border-radius: 7px;
+      }
+      .triangle-topright {
+        border-top: 0px ;
+        border-left: 0px ;
+      }
+      .iconsContainer{
+        margin-left: 20%;
+      }
+  }
