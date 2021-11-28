@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+.header{
+background-color:#E4F9F5;
+position:relative;
+padding-top: 80px;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family:'Merriweather', serif;
+    
+}
+h1{
+    text-align:center;
+    font-size: 5rem;
+  color:#66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+  hr.new{
+    color:#EAF6F6;
+    border: dotted  6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+  
+.content{
+   
+    height: 200px;
+    margin-right: 200px; 
+    
+  }
+  .content2{
+
+    height: 200px;
+    margin-left: 200px; 
+    
+}
+  .ribbon {
+      height: 100px;
+    position: absolute;
+    left: 1550px;
+    bottom: -200px;
+  
+ } .ribbon2 {
+  height: 100px;
+  margin-left: -150px;
+position: absolute;
+
+ }
+ .center{
+   position: relative;
+  bottom :0;}
+h2,h3,h5{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF
+}
+.btn{
+  background: #11cdd4;
+  color: white ;
+  border: none;
+  padding: 10px 32px;
+  font-size: 30px;
+  border-radius: 8px;
+  font-family:'Merriweather', serif;
+}
+.btn:hover{
+  background-color:#30e3cb;
+}
+.profile{
+    border-radius: 50%;
+    height: 150px;
+}
+  .Firstimg{
+     position:absolute; 
+     right:300px;
+      top: 40px;
+  }
+  .secondimg{
+    position: absolute;
+    left: 200px;
+     top: 100px;
+ 
+
+  }
+.text{
+text-align:center;
+color:#40514E;
+font-family:'Merriweather';
+font-size: 20px ;
+
+}
+.footer{
+height: 200px;
+padding-top: 50px ;
+padding-bottom: 20px ;
+  background-color:#66BFBF;
+}
+.innerfooter{
+ 
+  font-family:'Merriweather', serif;
+  color:#11999E;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration-line: none;
+}

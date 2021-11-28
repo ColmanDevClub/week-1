@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,14 +12,39 @@
   <title>Fylo data storage component</title>
 </head>
 
-<body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+<body >
+<div class="box">
+  <div class="box-one"> 
+    <img src="assets/bg-desktop.png" class="img-responsive" >
+    <div class="container-1">
+      <div class="container-1-item container-1-item-1"><img  src="assets/logo.svg" alt="fylo logo"></div>
+      <div class="container-1-item container-1-item-2">
+        <div class="item">
+        <div class="item-item" ><img src="assets/icon-document.svg" alt="item1"></div>
+        <div class="item-item"><img src="assets/icon-folder.svg" alt="item2"></div>
+        <div class="item-item"><img src="assets/icon-upload.svg" alt="item3"></div>
+      </div>
+      </div>
+    </div>
+    <div class="container-2">
+      <div class="container-2-item container-2-item-1">
+       <div class="item2">
+          <div class="item2-item item2-item1"> You’ve used <span class="text-2">815 GB</span> of your storage</div>
+          <div class="item2-item item2-item2">  
+            <span class="Numtext" > 185 </span> <span class="text-1">GB LEFT</span>   
+            <div class="triangle"></div> </div>
+    </div>
+  </div>
+      <div  class="container-2-item container-2-item-2"  >
+        <div class="progress-bar"> <div class="ball"></div></div>
+      </div>
+      <div class="container-2-item container-2-item-3 ">
+        <div class="item3">
+          <div class="item3-item item3-item1 text-2"> 0 GB </div>
+          <div class="item3-item item3-item2 text-2">1000 GB</div> 
+        </div> 
+      </div>
+  </div>
+</div>
 </body>
 </html>
