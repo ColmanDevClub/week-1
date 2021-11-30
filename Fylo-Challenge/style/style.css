@@ -1,0 +1,185 @@
+body{
+    background-color:hsl(229, 57%, 11%);
+    padding:0;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topSpace{
+    top:0;
+    left:0;
+    width:100%;
+    height:48vh;
+}
+
+.container{
+    display:flex;
+    position:relative;
+    width:70%;
+    left:15%;
+    column-gap: 32px;
+    align-items:flex-end;
+    z-index:1;
+}
+
+.box1{
+    flex: 1;
+    background-color:hsl(228, 56%, 26%);
+    flex-basis:0px;
+    height:160px;
+    border-radius:15px 100px 15px 15px;
+}
+
+#fyloName{
+    position:absolute;
+    left:33px;
+    top:33px;
+}
+
+.box2{
+    flex: 2;
+    position:relative;
+    background-color:hsl(228, 56%, 26%);
+    color:hsl(229, 7%, 55%);
+    height:130px;
+    border-radius:18px;
+}
+
+.bottomBackGround{
+    background-image: url(../assets/bg-desktop.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    max-width:100vw;
+    height:45vh;
+}
+
+span.whiteModified{
+    color: #fff;
+    font-size:15px;
+}
+#icons{
+    display:flex;
+    position:absolute;
+    left:38px;
+    top:95px;
+    column-gap:10px;
+}
+#icons div{
+    display:flex;
+    position:relative;
+    background-color: hsl(229, 57%, 11%);
+    padding: 7px;
+    border-radius:5px;
+}
+
+.whiteBox{
+    display:flex;
+    position:absolute;
+    column-gap: 5px;
+    right:7%;
+    top:-28%;
+    background-color: #fff;
+    height:60px;
+    width:165px;
+    border-radius:12px;
+    align-items: center;
+}
+
+#whiteTriangle{
+    position:absolute;
+    right:7%;
+    top:-9%;
+    border-top:28px solid transparent;
+    border-right: 26px solid #fff;
+    border-bottom: 28px solid transparent;
+}
+
+#number1{
+    position:absolute;
+    flex:1;
+    left:10%;
+    top:-23%;
+    color:#000;
+    font-weight:bold;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+#number8{
+    position:absolute;
+    flex:2;
+    left:19%;
+    top:-23%;
+    color:#000;
+    font-weight:bolder;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+#number5{
+    position:absolute;
+    flex:3;
+    left:32%;
+    top:-23%;
+    color:#000;
+    font-weight:bold;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+#gbLeft{
+    position:absolute;
+    flex:4;
+    right:15%;
+    font-size:14px;
+}
+
+#aboveProgressDetails{
+    position:absolute;
+    left:7%;
+    top:12%;
+    font-size:15px;
+}
+
+#progress-bar-main{
+    position:absolute;
+    width:85%;
+    top:49%;
+    background-color:hsl(229, 57%, 11%);
+    border-radius:10px;
+    left:7.5%;
+    height:14px;
+}
+
+#progress-bar-middle{
+    position:absolute;
+    width:65%;
+    top:50%;
+    background-image:linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius:10px;
+    left:8%;
+    height:10px;
+}
+
+#progress-bar-dot{
+    position:absolute;
+    background-color:white;
+    border-radius:100%;
+    height:8px;
+    width:8px;
+    top:51%;
+    left:71.5%;
+}
+
+#emptyBarNumber{
+    position:absolute;
+    bottom:7%;
+    left:7%;
+}
+
+#fullBarNumber{
+    position:absolute;
+    bottom:7%;
+    right:7%;
+}
